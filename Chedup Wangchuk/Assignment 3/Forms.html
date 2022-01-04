@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="">
+</head>
+<body style="background-image: linear-gradient(90deg,rgba(2,89,155,0.4),rgba(155,155,120,0.1))">
+	<h1 align="center" style=color:rgb(168,90,50)> THAZAY Home Stay Reservation Form</h1>
+	
+	<hr style="height: 5px;background-color: black;">
+	<form>
+		<label for="NAME"><strong><big>NAME</big></strong></label>&nbsp;
+		<input type="text" style="height: 30px;width: 300px;border-radius: 5px"; id="NAME" placeholder="NAME"> <br><br>
+		<label for="radiobuttonsvalues"><strong><big>GENDER</big></strong></label>
+
+		<input type="radio" id="radiobuttonsvalues" name="Male"><big><strong>Male</strong></big>
+		<input type="radio" id="radiobuttonsvalues"><big><strong>Female</strong></big>
+		<input type="radio" id="radiobuttonsvalues" name="checkbox" value="Others"><big><strong>Others</strong></big>
+	<br><br>
+		
+		<label for="EMAIL"><strong><big>EMAIL</big></strong></label>&nbsp;
+		<input type="EMAIL" style="height: 30px;width: 300px;border-radius: 5px"; id="EMAIL" name="EMAIL" placeholder="thazayhomestay@gmail.com"required="required">
+	<br><br>
+	<label><strong><big>COUNTRY</big></strong></label>
+	<select>
+		<option>China</option>
+		<option>Japan</option>
+		<option>France</option>
+		<option>USA</option>
+		<option>India</option>
+		<option>Nepal</option>
+		<option>Others</option>
+	</select><br><br>	
+		<label for="AGE"><strong><big>NUMBER OF PEOPLE</big></strong></label>&nbsp;
+		<input type="text" style="height: 30px;width: 300px;border-radius: 5px"; id="AGE" name="AGE" placeholder="**">	
+	<br><br>
+	<label for="querybox"><strong><big>DETAILS OF PEOPLE</big></strong></label>
+	<textarea rows=5 cols=15></textarea>
+
+	
+	<br><br>
+	<label for= "checkbox"><strong><big>ROOMS</big></strong></label>&nbsp;
+		<input type="checkbox" id="checkbox" name="checkbox" value="BBA"><big><strong>Single Bed Room</strong></big>
+
+		<input type="checkbox" id="checkbox" name="checkbox" value="BCA"><big><strong>Double Bed Room</strong></big>
+		<br><br>
+
+	<label for="date"><strong><big>Check In</big></label>&nbsp;
+		<input type="date" style="height: 30px;width: 300px;border-radius: 5px;" id="date1" name="date1" required><br><br>
+	<label for="date"><strong><big>Check Out</big></label>&nbsp;
+		<input type="date" style="height: 30px;width: 300px;border-radius: 5px;" id="date1" name="date1" required><br><br>
+	
+		<input type="Submit" name="Submit">
+		<input type="Reset" name="Reset">
+	</form>
+</body>
+</html>
